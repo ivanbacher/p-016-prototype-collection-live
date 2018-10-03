@@ -1,0 +1,52 @@
+body {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#top {
+    position: absolute;
+    height: 50px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid black;
+}
+
+#main-vp {
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+code-editor {
+    position: absolute;
+
+    right: 250px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    border-right: 1px solid #dddddd; 
+}
+
+#vis-viewport {
+    position: absolute;
+
+    right: 0px;
+    width: 250px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.vis {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.styled-background { 
+    background-color: rgb(255, 255, 119); /* FALLBACK */
+    background-color: rgba(255, 255, 119, 1);
+}
